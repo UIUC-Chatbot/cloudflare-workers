@@ -1,0 +1,10 @@
+name = "kastans-workers"
+main = "src/app.ts"
+compatibility_date = "2024-09-25"
+compatibility_flags = [ "nodejs_compat" ]
+
+# Define default environment variables
+[vars]
+NODE_ENV = "production"
+LOG_LEVEL = "debug"
+
