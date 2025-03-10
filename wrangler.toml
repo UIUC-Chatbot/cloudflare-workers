@@ -8,3 +8,6 @@ compatibility_flags = [ "nodejs_compat" ]
 NODE_ENV = "production"
 LOG_LEVEL = "debug"
 
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
